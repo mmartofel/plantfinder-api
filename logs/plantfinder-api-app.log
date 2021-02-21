@@ -24,3 +24,42 @@
 2021-02-20 14:58:30.254  WARN 37407 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
 2021-02-20 14:59:21.530  INFO 37407 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
 2021-02-20 14:59:21.531  INFO 37407 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:31:08.348  INFO 39903 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 39903 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-20 16:31:08.366  INFO 39903 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-20 16:31:14.233  INFO 39903 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:31:14.537  INFO 39903 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-20 16:31:16.093  INFO 39903 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-20 16:31:16.402  INFO 39903 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-20 16:31:16.661  INFO 39903 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 9.161 seconds (JVM running for 12.616)
+2021-02-20 16:31:17.316  WARN 39903 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-20 16:31:19.159  INFO 39903 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-20 16:31:19.163  INFO 39903 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:32:28.000  INFO 40022 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 40022 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-20 16:32:28.004  INFO 40022 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-20 16:32:33.339  INFO 40022 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:32:33.741  INFO 40022 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-20 16:32:35.165  INFO 40022 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-20 16:32:35.564  INFO 40022 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-20 16:32:36.111  INFO 40022 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 8.885 seconds (JVM running for 11.42)
+2021-02-20 16:32:37.664  WARN 40022 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-20 16:32:39.858  INFO 40022 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-20 16:32:39.885  INFO 40022 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:33:01.355  INFO 40074 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 40074 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-20 16:33:01.364  INFO 40074 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-20 16:33:07.487  INFO 40074 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-20 16:33:07.564  INFO 40074 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-20 16:33:07.565  INFO 40074 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-20 16:33:07.855  INFO 40074 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-20 16:33:07.856  INFO 40074 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5927 ms
+2021-02-20 16:33:09.006  INFO 40074 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-20 16:33:09.244  INFO 40074 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-20 16:33:09.737  INFO 40074 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-20 16:33:09.840  INFO 40074 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-20 16:33:10.247  INFO 40074 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-20 16:33:10.351  INFO 40074 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 10.757 seconds (JVM running for 13.45)
+2021-02-20 16:33:11.044  WARN 40074 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-20 16:33:36.366  INFO 40074 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-20 16:33:36.383  INFO 40074 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-20 16:33:36.817  INFO 40074 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 432 ms
+2021-02-20 16:34:38.278  INFO 40074 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-20 16:34:38.291  INFO 40074 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
