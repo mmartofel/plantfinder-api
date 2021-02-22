@@ -1,276 +1,423 @@
-2021-02-21 15:26:52.753  INFO 49819 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 49819 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 15:26:52.757  INFO 49819 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
-2021-02-21 15:26:54.143  INFO 49819 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:26:54.249  INFO 49819 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 15:26:54.555  INFO 49819 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 15:26:54.624  INFO 49819 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 15:26:54.678  INFO 49819 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.23 seconds (JVM running for 3.34)
-2021-02-21 15:26:54.829  WARN 49819 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 15:26:55.136  INFO 49819 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 15:26:55.136  INFO 49819 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:27:08.608  INFO 49832 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 49832 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 15:27:08.611  INFO 49832 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 15:27:09.760  INFO 49832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 15:27:09.775  INFO 49832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 15:27:09.775  INFO 49832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 15:27:09.872  INFO 49832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 15:27:09.872  INFO 49832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
-2021-02-21 15:27:10.240  INFO 49832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:27:10.330  INFO 49832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 15:27:10.578  INFO 49832 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 15:27:10.616  INFO 49832 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 15:27:10.703  INFO 49832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 15:27:10.720  INFO 49832 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.669 seconds (JVM running for 3.103)
-2021-02-21 15:27:10.792  INFO 49832 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 15:27:10.886  WARN 49832 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 15:28:04.901  INFO 49832 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 15:28:04.902  INFO 49832 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:28:43.766  INFO 49888 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 49888 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 15:28:43.771  INFO 49888 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
-2021-02-21 15:28:45.268  INFO 49888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:28:45.412  INFO 49888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 15:28:45.821  INFO 49888 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 15:28:45.946  INFO 49888 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 15:28:46.068  INFO 49888 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.762 seconds (JVM running for 4.67)
-2021-02-21 15:28:46.368  WARN 49888 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 15:28:46.864  INFO 49888 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 15:28:46.865  INFO 49888 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:29:05.171  INFO 49910 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 49910 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 15:29:05.175  INFO 49910 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 15:29:06.810  INFO 49910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 15:29:06.823  INFO 49910 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 15:29:06.823  INFO 49910 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 15:29:06.936  INFO 49910 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 15:29:06.936  INFO 49910 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1643 ms
-2021-02-21 15:29:07.445  INFO 49910 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:29:07.569  INFO 49910 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 15:29:07.814  INFO 49910 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 15:29:07.880  INFO 49910 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 15:29:08.004  INFO 49910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 15:29:08.052  INFO 49910 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.419 seconds (JVM running for 3.948)
-2021-02-21 15:29:08.157  WARN 49910 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 15:29:08.317  WARN 49910 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 15:32:23.453  INFO 49910 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 15:32:23.456  INFO 49910 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:56:59.383  INFO 50451 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 50451 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 15:56:59.387  INFO 50451 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 15:57:00.508  INFO 50451 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 15:57:00.522  INFO 50451 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 15:57:00.523  INFO 50451 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 15:57:00.600  INFO 50451 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 15:57:00.601  INFO 50451 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1128 ms
-2021-02-21 15:57:00.809  INFO 50451 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static java.lang.String com.example.plantfinder.plantfinderapi.PlantfinderApiApplication.port
-2021-02-21 15:57:01.000  INFO 50451 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 15:57:01.111  INFO 50451 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 15:57:01.346  INFO 50451 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 15:57:01.392  INFO 50451 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 15:57:01.483  INFO 50451 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 15:57:01.499  INFO 50451 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.576 seconds (JVM running for 2.995)
-2021-02-21 15:57:01.577  WARN 50451 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 15:57:01.702  WARN 50451 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:26:43.909  INFO 50451 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:26:43.934  INFO 50451 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:26:56.404  INFO 53112 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53112 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:26:56.409  INFO 53112 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:26:58.163  INFO 53112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:26:58.183  INFO 53112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:26:58.184  INFO 53112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:26:58.293  INFO 53112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:26:58.294  INFO 53112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1775 ms
-2021-02-21 18:26:58.626  INFO 53112 --- [main] pConfig$$EnhancerBySpringCGLIB$$fcb8d5ee : Plants list initialized.
-2021-02-21 18:26:58.868  INFO 53112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:26:58.996  INFO 53112 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:26:59.292  INFO 53112 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:26:59.335  INFO 53112 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:26:59.451  INFO 53112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:26:59.478  INFO 53112 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.777 seconds (JVM running for 4.483)
-2021-02-21 18:26:59.582  WARN 53112 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 18:26:59.751  WARN 53112 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:30:07.937  INFO 53112 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:30:07.942  INFO 53112 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:30:18.031  INFO 53189 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53189 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:30:18.034  INFO 53189 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:30:19.233  INFO 53189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:30:19.251  INFO 53189 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:30:19.251  INFO 53189 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:30:19.328  INFO 53189 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:30:19.328  INFO 53189 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1221 ms
-2021-02-21 18:30:19.542  INFO 53189 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : Plants list initialized.
-2021-02-21 18:30:19.543  INFO 53189 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : Server port is: $server.port
-2021-02-21 18:30:19.704  INFO 53189 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:30:19.791  INFO 53189 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:30:20.002  INFO 53189 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:30:20.035  INFO 53189 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:30:20.116  INFO 53189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:30:20.132  INFO 53189 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.628 seconds (JVM running for 3.056)
-2021-02-21 18:30:20.192  WARN 53189 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 18:30:20.291  WARN 53189 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:31:20.985  INFO 53189 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:31:20.988  INFO 53189 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:31:32.858  INFO 53233 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53233 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:31:32.861  INFO 53233 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:31:34.352  INFO 53233 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:31:34.392  INFO 53233 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:31:34.393  INFO 53233 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:31:34.550  INFO 53233 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:31:34.550  INFO 53233 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1601 ms
-2021-02-21 18:31:34.948  INFO 53233 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : Plants list initialized.
-2021-02-21 18:31:34.949  INFO 53233 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : Server port is: 8081
-2021-02-21 18:31:35.162  INFO 53233 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:31:35.301  INFO 53233 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:31:35.617  INFO 53233 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:31:35.672  INFO 53233 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:31:35.778  INFO 53233 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:31:35.801  INFO 53233 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.57 seconds (JVM running for 4.033)
-2021-02-21 18:31:35.879  WARN 53233 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 18:31:36.020  WARN 53233 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:32:07.545  INFO 53233 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:32:07.547  INFO 53233 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:38:43.290  INFO 53371 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53371 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:38:43.295  INFO 53371 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:38:44.674  INFO 53371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:38:44.688  INFO 53371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:38:44.689  INFO 53371 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:38:44.763  INFO 53371 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:38:44.763  INFO 53371 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1373 ms
-2021-02-21 18:38:44.982  INFO 53371 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : Plants list initialized.
-2021-02-21 18:38:44.983  WARN 53371 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : Server port is set to: 8081
-2021-02-21 18:38:44.983  WARN 53371 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : Server address is set to: 8081
-2021-02-21 18:38:44.983  WARN 53371 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
-2021-02-21 18:38:44.984  WARN 53371 --- [main] AppConfig$$EnhancerBySpringCGLIB$$6bb93d : spring.boot.admin.client.url is set to: http://localhost:8092/
-2021-02-21 18:38:45.166  INFO 53371 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:38:45.261  INFO 53371 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:38:45.479  INFO 53371 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:38:45.513  INFO 53371 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:38:45.594  INFO 53371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:38:45.616  INFO 53371 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.951 seconds (JVM running for 3.42)
-2021-02-21 18:38:45.681  WARN 53371 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 18:38:45.798  WARN 53371 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:40:06.784  INFO 53371 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:40:06.785  INFO 53371 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:40:15.238  INFO 53422 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53422 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:40:15.244  INFO 53422 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:40:16.538  INFO 53422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:40:16.550  INFO 53422 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:40:16.550  INFO 53422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:40:16.624  INFO 53422 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:40:16.625  INFO 53422 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
-2021-02-21 18:40:16.853  WARN 53422 --- [main] pConfig$$EnhancerBySpringCGLIB$$d327934c : Plants list initialized.
-2021-02-21 18:40:16.854  WARN 53422 --- [main] pConfig$$EnhancerBySpringCGLIB$$d327934c : Server port is set to: 8081
-2021-02-21 18:40:16.854  WARN 53422 --- [main] pConfig$$EnhancerBySpringCGLIB$$d327934c : Server address is set to: 0.0.0.0
-2021-02-21 18:40:16.854  WARN 53422 --- [main] pConfig$$EnhancerBySpringCGLIB$$d327934c : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
-2021-02-21 18:40:16.854  WARN 53422 --- [main] pConfig$$EnhancerBySpringCGLIB$$d327934c : spring.boot.admin.client.url is set to: http://localhost:8092/
-2021-02-21 18:40:17.023  INFO 53422 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:40:17.108  INFO 53422 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:40:17.287  INFO 53422 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:40:17.316  INFO 53422 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:40:17.391  INFO 53422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:40:17.406  INFO 53422 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.793 seconds (JVM running for 3.242)
-2021-02-21 18:40:17.459  WARN 53422 --- [main] c.e.p.p.PlantfinderApiApplication        : Logging application setup:
-2021-02-21 18:40:17.552  WARN 53422 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:42:38.762  INFO 53422 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:42:38.764  INFO 53422 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:46:20.005  INFO 53575 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53575 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:46:20.011  INFO 53575 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 18:46:21.222  INFO 53575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:46:21.235  INFO 53575 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:46:21.235  INFO 53575 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:46:21.306  INFO 53575 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:46:21.307  INFO 53575 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1186 ms
-2021-02-21 18:46:21.550  WARN 53575 --- [main] pConfig$$EnhancerBySpringCGLIB$$8e9e47ea : Plants list initialized.
-2021-02-21 18:46:21.551  WARN 53575 --- [main] pConfig$$EnhancerBySpringCGLIB$$8e9e47ea : Server port is set to: 8081
-2021-02-21 18:46:21.551  WARN 53575 --- [main] pConfig$$EnhancerBySpringCGLIB$$8e9e47ea : Server address is set to: 0.0.0.0
-2021-02-21 18:46:21.552  WARN 53575 --- [main] pConfig$$EnhancerBySpringCGLIB$$8e9e47ea : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
-2021-02-21 18:46:21.552  WARN 53575 --- [main] pConfig$$EnhancerBySpringCGLIB$$8e9e47ea : spring.boot.admin.client.url is set to: http://localhost:8092/
-2021-02-21 18:46:21.748  INFO 53575 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:46:21.837  INFO 53575 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:46:22.059  INFO 53575 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:46:22.105  INFO 53575 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:46:22.193  INFO 53575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:46:22.217  INFO 53575 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.955 seconds (JVM running for 3.46)
-2021-02-21 18:46:22.291  WARN 53575 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
-2021-02-21 18:46:22.398  WARN 53575 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 18:46:41.819  INFO 53575 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:46:41.820  INFO 53575 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:47:06.343  INFO 53588 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 53588 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 18:47:06.346  INFO 53588 --- [main] c.e.p.p.PlantfinderApiApplication        : The following profiles are active: ocp
-2021-02-21 18:47:07.790  INFO 53588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 18:47:07.805  INFO 53588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 18:47:07.806  INFO 53588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 18:47:07.881  INFO 53588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 18:47:07.881  INFO 53588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1442 ms
-2021-02-21 18:47:08.146  WARN 53588 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Plants list initialized.
-2021-02-21 18:47:08.146  WARN 53588 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server port is set to: 8081
-2021-02-21 18:47:08.147  WARN 53588 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server address is set to: 0.0.0.0
-2021-02-21 18:47:08.147  WARN 53588 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.instance.service-base-url is set to: http://plantfinder-api:8081
-2021-02-21 18:47:08.147  WARN 53588 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.url is set to: http://plantfinder-admin-console:8092/
-2021-02-21 18:47:08.355  INFO 53588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 18:47:08.463  INFO 53588 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 18:47:08.713  INFO 53588 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 18:47:08.757  INFO 53588 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 18:47:08.838  INFO 53588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 18:47:08.855  INFO 53588 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.136 seconds (JVM running for 3.616)
-2021-02-21 18:47:08.918  WARN 53588 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
-2021-02-21 18:47:09.284  WARN 53588 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://plantfinder-api:8081/actuator, healthUrl=http://plantfinder-api:8081/actuator/health, serviceUrl=http://plantfinder-api:8081/) at spring-boot-admin ([http://plantfinder-admin-console:8092//instances]): I/O error on POST request for "http://plantfinder-admin-console:8092/instances": plantfinder-admin-console; nested exception is java.net.UnknownHostException: plantfinder-admin-console. Further attempts are logged on DEBUG level
-2021-02-21 18:47:21.548  INFO 53588 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 18:47:21.549  INFO 53588 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:09:25.063  INFO 54667 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 54667 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 19:09:25.068  INFO 54667 --- [main] c.e.p.p.PlantfinderApiApplication        : The following profiles are active: ocp
-2021-02-21 19:09:28.022  INFO 54667 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 19:09:28.099  INFO 54667 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 19:09:28.100  INFO 54667 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 19:09:28.380  INFO 54667 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 19:09:28.381  INFO 54667 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3224 ms
-2021-02-21 19:09:28.803  WARN 54667 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Plants list initialized.
-2021-02-21 19:09:28.804  WARN 54667 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server port is set to: 8081
-2021-02-21 19:09:28.804  WARN 54667 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server address is set to: 0.0.0.0
-2021-02-21 19:09:28.804  WARN 54667 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.instance.service-base-url is set to: http://plantfinder-api:8081
-2021-02-21 19:09:28.805  WARN 54667 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.url is set to: http://plantfinder-admin-console:8092/
-2021-02-21 19:09:29.037  INFO 54667 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:09:29.157  INFO 54667 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 19:09:29.451  INFO 54667 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 19:09:29.524  INFO 54667 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 19:09:29.658  INFO 54667 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 19:09:29.715  INFO 54667 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 5.263 seconds (JVM running for 5.804)
-2021-02-21 19:09:29.793  WARN 54667 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
-2021-02-21 19:09:29.907  WARN 54667 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://plantfinder-api:8081/actuator, healthUrl=http://plantfinder-api:8081/actuator/health, serviceUrl=http://plantfinder-api:8081/) at spring-boot-admin ([http://plantfinder-admin-console:8092//instances]): I/O error on POST request for "http://plantfinder-admin-console:8092/instances": plantfinder-admin-console; nested exception is java.net.UnknownHostException: plantfinder-admin-console. Further attempts are logged on DEBUG level
-2021-02-21 19:09:37.215  INFO 54667 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 19:09:37.216  INFO 54667 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:50:15.659  INFO 55904 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 55904 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 19:50:15.663  INFO 55904 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
-2021-02-21 19:50:17.142  INFO 55904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 19:50:17.155  INFO 55904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 19:50:17.156  INFO 55904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 19:50:17.234  INFO 55904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 19:50:17.235  INFO 55904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
-2021-02-21 19:50:17.459  WARN 55904 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : Plants list initialized.
-2021-02-21 19:50:17.460  WARN 55904 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : Server port is set to: 8081
-2021-02-21 19:50:17.460  WARN 55904 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : Server address is set to: 0.0.0.0
-2021-02-21 19:50:17.461  WARN 55904 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
-2021-02-21 19:50:17.461  WARN 55904 --- [main] pConfig$$EnhancerBySpringCGLIB$$2105602f : spring.boot.admin.client.url is set to: http://localhost:8092/
-2021-02-21 19:50:17.650  INFO 55904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:50:17.766  INFO 55904 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 19:50:18.012  INFO 55904 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 19:50:18.051  INFO 55904 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2021-02-21 19:50:18.142  INFO 55904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-02-21 19:50:18.158  INFO 55904 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.175 seconds (JVM running for 3.782)
-2021-02-21 19:50:18.233  WARN 55904 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
-2021-02-21 19:50:18.365  WARN 55904 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
-2021-02-21 19:50:19.587  INFO 55904 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
-2021-02-21 19:50:19.588  INFO 55904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:51:31.414  INFO 55948 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 55948 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
-2021-02-21 19:51:31.418  INFO 55948 --- [main] c.e.p.p.PlantfinderApiApplication        : The following profiles are active: ocp
-2021-02-21 19:51:33.185  INFO 55948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-02-21 19:51:33.202  INFO 55948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-21 19:51:33.202  INFO 55948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-21 19:51:33.294  INFO 55948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-21 19:51:33.294  INFO 55948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1692 ms
-2021-02-21 19:51:33.576  WARN 55948 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Plants list initialized.
-2021-02-21 19:51:33.577  WARN 55948 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server port is set to: 8081
-2021-02-21 19:51:33.577  WARN 55948 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : Server address is set to: 0.0.0.0
-2021-02-21 19:51:33.578  WARN 55948 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.instance.service-base-url is set to: http://plantfinder-api:8081
-2021-02-21 19:51:33.578  WARN 55948 --- [main] pConfig$$EnhancerBySpringCGLIB$$d41e1c13 : spring.boot.admin.client.url is set to: http://plantfinder-admin-console:8092/
-2021-02-21 19:51:33.788  INFO 55948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-21 19:51:33.909  INFO 55948 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2021-02-21 19:51:34.154  INFO 55948 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-02-21 19:51:34.192  INFO 55948 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:13:34.434  INFO 63303 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 63303 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:13:34.438  INFO 63303 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:13:35.375  WARN 63303 --- [main] pConfig$$EnhancerBySpringCGLIB$$f46d0014 : Plants list initialized.
+2021-02-22 13:13:35.378  WARN 63303 --- [main] pConfig$$EnhancerBySpringCGLIB$$f46d0014 : Server port is set to: 8081
+2021-02-22 13:13:35.378  WARN 63303 --- [main] pConfig$$EnhancerBySpringCGLIB$$f46d0014 : Server address is set to: 0.0.0.0
+2021-02-22 13:13:35.379  WARN 63303 --- [main] pConfig$$EnhancerBySpringCGLIB$$f46d0014 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:13:35.379  WARN 63303 --- [main] pConfig$$EnhancerBySpringCGLIB$$f46d0014 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:13:35.788  INFO 63303 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:13:35.888  INFO 63303 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:13:36.229  INFO 63303 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:13:36.296  INFO 63303 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:13:36.356  INFO 63303 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.277 seconds (JVM running for 3.223)
+2021-02-22 13:13:36.519  WARN 63303 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:13:36.769  INFO 63303 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:13:36.770  INFO 63303 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:14:21.263  INFO 63331 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 63331 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:14:21.266  INFO 63331 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:14:22.390  INFO 63331 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:14:22.401  INFO 63331 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:14:22.402  INFO 63331 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:14:22.471  INFO 63331 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:14:22.472  INFO 63331 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
+2021-02-22 13:14:22.680  WARN 63331 --- [main] pConfig$$EnhancerBySpringCGLIB$$6e2f0efd : Plants list initialized.
+2021-02-22 13:14:22.680  WARN 63331 --- [main] pConfig$$EnhancerBySpringCGLIB$$6e2f0efd : Server port is set to: 8081
+2021-02-22 13:14:22.680  WARN 63331 --- [main] pConfig$$EnhancerBySpringCGLIB$$6e2f0efd : Server address is set to: 0.0.0.0
+2021-02-22 13:14:22.680  WARN 63331 --- [main] pConfig$$EnhancerBySpringCGLIB$$6e2f0efd : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:14:22.681  WARN 63331 --- [main] pConfig$$EnhancerBySpringCGLIB$$6e2f0efd : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:14:22.840  INFO 63331 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:14:22.939  INFO 63331 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:14:23.167  INFO 63331 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:14:23.195  INFO 63331 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:14:23.267  INFO 63331 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:14:23.283  INFO 63331 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 2.573 seconds (JVM running for 3.048)
+2021-02-22 13:14:23.334  WARN 63331 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:14:23.427  WARN 63331 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:32:13.186  INFO 63331 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:32:13.187  INFO 63331 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:32:20.458  INFO 63797 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 63797 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:32:20.460  INFO 63797 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:32:21.411  WARN 63797 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:32:21.414  WARN 63797 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:32:21.414  WARN 63797 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:32:21.415  WARN 63797 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:32:21.415  WARN 63797 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:32:22.050  INFO 63797 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:32:22.187  INFO 63797 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:32:22.368  INFO 63797 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:32:22.412  INFO 63797 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:32:22.537  INFO 63797 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:32:22.613  INFO 63797 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:32:22.640  INFO 63797 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:32:22.686  INFO 63797 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:32:22.711  INFO 63797 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.497 seconds (JVM running for 3.368)
+2021-02-22 13:32:22.853  WARN 63797 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:32:23.126  INFO 63797 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:32:23.126  INFO 63797 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:32:39.723  INFO 63826 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 63826 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:32:39.726  INFO 63826 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:32:41.028  INFO 63826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:32:41.041  INFO 63826 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:32:41.042  INFO 63826 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:32:41.126  INFO 63826 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:32:41.127  INFO 63826 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2021-02-22 13:32:41.375  WARN 63826 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Plants list initialized.
+2021-02-22 13:32:41.376  WARN 63826 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server port is set to: 8081
+2021-02-22 13:32:41.376  WARN 63826 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server address is set to: 0.0.0.0
+2021-02-22 13:32:41.376  WARN 63826 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:32:41.377  WARN 63826 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:32:41.770  INFO 63826 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:32:41.855  INFO 63826 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:32:41.942  INFO 63826 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:32:41.997  INFO 63826 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:32:42.099  INFO 63826 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:32:42.223  INFO 63826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:32:42.225  INFO 63826 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:32:42.263  INFO 63826 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:32:42.318  INFO 63826 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:32:42.346  INFO 63826 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.095 seconds (JVM running for 3.504)
+2021-02-22 13:32:42.403  WARN 63826 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:32:42.497  WARN 63826 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:33:44.432  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-2] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03V0x880x1a0x12~0xdbV)D0xc50xe00xd90xbc0x1f0xfa|0x1d0xd30xc1'`H0x820xcb0xe50x890x9f0x860xff0x100x8eK]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-02-22 13:33:44.432  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03Z0x110xac`0xa500xff0xa3U0x890xc30xdfx{XfY0xdf0x04T0x9f90xe0D0xf10x8ax0x0b0xb70x030xd35]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-02-22 13:33:44.472  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-3] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xf80xa20x0c0xf4t0xc7;0xb77r0xe35m0xb5r30xcc0xab0xb10xc40x98R0xc00x10Mev'0x83e0xd5d]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.37.jar!/:9.0.37]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-02-22 13:33:59.844  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:33:59.844  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:33:59.852  INFO 63826 --- [http-nio-0.0.0.0-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-02-22 13:40:34.319  INFO 63826 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:40:34.320  INFO 63826 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:40:43.526  INFO 64192 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64192 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:40:43.528  INFO 64192 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:40:44.537  WARN 64192 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:40:44.539  WARN 64192 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:40:44.540  WARN 64192 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:40:44.540  WARN 64192 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:40:44.541  WARN 64192 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:40:45.191  INFO 64192 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:40:45.323  INFO 64192 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:40:45.515  INFO 64192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:40:45.563  INFO 64192 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:40:45.681  INFO 64192 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:40:45.754  INFO 64192 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:40:45.780  INFO 64192 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:40:45.814  INFO 64192 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:40:45.837  INFO 64192 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.595 seconds (JVM running for 3.577)
+2021-02-22 13:40:45.974  WARN 64192 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:40:46.261  INFO 64192 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:40:46.262  INFO 64192 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:41:41.988  INFO 64226 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64226 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:41:41.992  INFO 64226 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:41:43.341  INFO 64226 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:41:43.354  INFO 64226 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:41:43.354  INFO 64226 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:41:43.439  INFO 64226 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:41:43.439  INFO 64226 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1371 ms
+2021-02-22 13:41:43.698  WARN 64226 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Plants list initialized.
+2021-02-22 13:41:43.698  WARN 64226 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server port is set to: 8081
+2021-02-22 13:41:43.698  WARN 64226 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server address is set to: 0.0.0.0
+2021-02-22 13:41:43.699  WARN 64226 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:41:43.699  WARN 64226 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:41:44.108  INFO 64226 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:41:44.188  INFO 64226 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:41:44.283  INFO 64226 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:41:44.332  INFO 64226 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:41:44.430  INFO 64226 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:41:44.535  INFO 64226 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:41:44.537  INFO 64226 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:41:44.578  INFO 64226 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:41:44.650  INFO 64226 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:41:44.689  INFO 64226 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.192 seconds (JVM running for 3.621)
+2021-02-22 13:41:44.760  WARN 64226 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:41:44.870  WARN 64226 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:42:17.918  INFO 64226 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:42:17.919  INFO 64226 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:42:17.930  INFO 64226 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-02-22 13:45:16.636  INFO 64226 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:45:16.637  INFO 64226 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:45:53.477  INFO 64383 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64383 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:45:53.478  INFO 64383 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:45:54.567  WARN 64383 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:45:54.570  WARN 64383 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:45:54.571  WARN 64383 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:45:54.571  WARN 64383 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:45:54.572  WARN 64383 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:45:55.218  INFO 64383 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:45:55.356  INFO 64383 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:45:55.523  INFO 64383 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:45:55.572  INFO 64383 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:45:55.701  INFO 64383 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:45:55.781  INFO 64383 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:45:55.821  INFO 64383 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:45:55.861  INFO 64383 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:45:55.976  INFO 64383 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.758 seconds (JVM running for 3.601)
+2021-02-22 13:45:56.077  WARN 64383 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:45:56.342  INFO 64383 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:45:56.342  INFO 64383 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:46:02.597  INFO 64398 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64398 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:46:02.601  INFO 64398 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:46:03.926  INFO 64398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:46:03.940  INFO 64398 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:46:03.940  INFO 64398 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:46:04.022  INFO 64398 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:46:04.022  INFO 64398 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1342 ms
+2021-02-22 13:46:04.309  WARN 64398 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Plants list initialized.
+2021-02-22 13:46:04.309  WARN 64398 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server port is set to: 8081
+2021-02-22 13:46:04.309  WARN 64398 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server address is set to: 0.0.0.0
+2021-02-22 13:46:04.310  WARN 64398 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:46:04.310  WARN 64398 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:46:04.728  INFO 64398 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:46:04.810  INFO 64398 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:46:04.899  INFO 64398 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:46:04.949  INFO 64398 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:46:05.043  INFO 64398 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:46:05.133  INFO 64398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:46:05.134  INFO 64398 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:46:05.162  INFO 64398 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:46:05.224  INFO 64398 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:46:05.371  INFO 64398 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.31 seconds (JVM running for 3.742)
+2021-02-22 13:46:05.423  WARN 64398 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:46:05.493  WARN 64398 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:46:22.591  INFO 64398 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:46:22.591  INFO 64398 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:46:22.599  INFO 64398 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-02-22 13:47:21.299  INFO 64398 --- [http-nio-0.0.0.0-8081-exec-4] c.e.p.p.c.PlantFinderMainController      : getting all plants
+2021-02-22 13:50:50.060  INFO 64398 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:50:50.061  INFO 64398 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:50:57.175  INFO 64582 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64582 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:50:57.176  INFO 64582 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:50:58.124  WARN 64582 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:50:58.126  WARN 64582 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:50:58.127  WARN 64582 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:50:58.127  WARN 64582 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:50:58.127  WARN 64582 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:50:58.780  INFO 64582 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:50:58.914  INFO 64582 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:50:59.085  INFO 64582 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:50:59.132  INFO 64582 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:50:59.255  INFO 64582 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:50:59.347  INFO 64582 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:50:59.373  INFO 64582 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:50:59.412  INFO 64582 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:50:59.533  INFO 64582 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.6 seconds (JVM running for 3.466)
+2021-02-22 13:50:59.631  WARN 64582 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:50:59.912  INFO 64582 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:50:59.913  INFO 64582 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:51:03.633  INFO 64596 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64596 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:51:03.636  INFO 64596 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:51:04.912  INFO 64596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:51:04.925  INFO 64596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:51:04.926  INFO 64596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:51:05.012  INFO 64596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:51:05.013  INFO 64596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2021-02-22 13:51:05.261  WARN 64596 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Plants list initialized.
+2021-02-22 13:51:05.262  WARN 64596 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server port is set to: 8081
+2021-02-22 13:51:05.262  WARN 64596 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server address is set to: 0.0.0.0
+2021-02-22 13:51:05.263  WARN 64596 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:51:05.263  WARN 64596 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:51:05.671  INFO 64596 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:51:05.750  INFO 64596 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:51:05.844  INFO 64596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:51:05.892  INFO 64596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:51:06.005  INFO 64596 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:51:06.115  INFO 64596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:51:06.116  INFO 64596 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:51:06.143  INFO 64596 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:51:06.192  INFO 64596 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:51:06.328  INFO 64596 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.167 seconds (JVM running for 3.589)
+2021-02-22 13:51:06.374  WARN 64596 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:51:06.443  WARN 64596 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:51:26.690  INFO 64596 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:51:26.691  INFO 64596 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:51:26.699  INFO 64596 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-02-22 13:52:40.962  INFO 64596 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:52:40.964  INFO 64596 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:53:09.431  INFO 64712 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64712 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:53:09.432  INFO 64712 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:53:10.451  WARN 64712 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:53:10.453  WARN 64712 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:53:10.454  WARN 64712 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:53:10.454  WARN 64712 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:53:10.455  WARN 64712 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:53:11.070  INFO 64712 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:53:11.212  INFO 64712 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:53:11.399  INFO 64712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:53:11.454  INFO 64712 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:53:11.616  INFO 64712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:53:11.706  INFO 64712 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:53:11.734  INFO 64712 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:53:11.776  INFO 64712 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:53:11.903  INFO 64712 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.745 seconds (JVM running for 4.04)
+2021-02-22 13:53:12.026  WARN 64712 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:53:12.294  INFO 64712 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:53:12.295  INFO 64712 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:53:17.123  INFO 64726 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64726 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:53:17.126  INFO 64726 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:53:18.378  INFO 64726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:53:18.392  INFO 64726 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:53:18.392  INFO 64726 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:53:18.478  INFO 64726 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:53:18.479  INFO 64726 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2021-02-22 13:53:18.805  WARN 64726 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Plants list initialized.
+2021-02-22 13:53:18.805  WARN 64726 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server port is set to: 8081
+2021-02-22 13:53:18.806  WARN 64726 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server address is set to: 0.0.0.0
+2021-02-22 13:53:18.806  WARN 64726 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:53:18.807  WARN 64726 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:53:19.212  INFO 64726 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:53:19.296  INFO 64726 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:53:19.389  INFO 64726 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:53:19.441  INFO 64726 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:53:19.536  INFO 64726 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:53:19.626  INFO 64726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:53:19.627  INFO 64726 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:53:19.655  INFO 64726 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:53:19.707  INFO 64726 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:53:19.848  INFO 64726 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.206 seconds (JVM running for 3.642)
+2021-02-22 13:53:19.901  WARN 64726 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:53:19.971  WARN 64726 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:53:29.106  INFO 64726 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:53:29.106  INFO 64726 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:53:29.113  INFO 64726 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-02-22 13:54:11.448  INFO 64726 --- [http-nio-0.0.0.0-8081-exec-4] c.e.p.p.c.PlantFinderMainController      : getting all plants
+2021-02-22 13:56:08.453  INFO 64726 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:56:08.454  INFO 64726 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:56:15.959  INFO 64830 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64830 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:56:15.960  INFO 64830 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:56:16.946  WARN 64830 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Plants list initialized.
+2021-02-22 13:56:16.949  WARN 64830 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server port is set to: 8081
+2021-02-22 13:56:16.949  WARN 64830 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : Server address is set to: 0.0.0.0
+2021-02-22 13:56:16.949  WARN 64830 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:56:16.950  WARN 64830 --- [main] pConfig$$EnhancerBySpringCGLIB$$992386ac : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:56:17.593  INFO 64830 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:56:17.709  INFO 64830 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:56:17.878  INFO 64830 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:56:17.935  INFO 64830 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:56:18.062  INFO 64830 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:56:18.161  INFO 64830 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:56:18.190  INFO 64830 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:56:18.231  INFO 64830 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:56:18.373  INFO 64830 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.669 seconds (JVM running for 3.535)
+2021-02-22 13:56:18.507  WARN 64830 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:56:18.855  INFO 64830 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:56:18.856  INFO 64830 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:56:23.710  INFO 64843 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64843 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:56:23.713  INFO 64843 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:56:25.123  INFO 64843 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:56:25.137  INFO 64843 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:56:25.138  INFO 64843 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:56:25.220  INFO 64843 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:56:25.220  INFO 64843 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2021-02-22 13:56:25.471  WARN 64843 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Plants list initialized.
+2021-02-22 13:56:25.471  WARN 64843 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server port is set to: 8081
+2021-02-22 13:56:25.472  WARN 64843 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : Server address is set to: 0.0.0.0
+2021-02-22 13:56:25.472  WARN 64843 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:56:25.472  WARN 64843 --- [main] pConfig$$EnhancerBySpringCGLIB$$5b0ee596 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:56:25.863  INFO 64843 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:56:25.947  INFO 64843 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:56:26.038  INFO 64843 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:56:26.091  INFO 64843 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:56:26.200  INFO 64843 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:56:26.291  INFO 64843 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:56:26.292  INFO 64843 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:56:26.321  INFO 64843 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:56:26.369  INFO 64843 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:56:26.511  INFO 64843 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.317 seconds (JVM running for 3.746)
+2021-02-22 13:56:26.581  WARN 64843 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:56:26.650  WARN 64843 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:56:39.492  INFO 64843 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:56:39.492  INFO 64843 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:56:39.499  INFO 64843 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-02-22 13:56:41.580  INFO 64843 --- [http-nio-0.0.0.0-8081-exec-2] c.e.p.p.c.PlantFinderMainController      : getting all plants
+2021-02-22 13:56:49.757  INFO 64843 --- [http-nio-0.0.0.0-8081-exec-3] c.e.p.p.c.PlantFinderMainController      : getting all plants
+2021-02-22 13:57:20.222  INFO 64843 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:57:20.223  INFO 64843 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:57:27.566  INFO 64908 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Starting PlantfinderApiApplicationTests on MacBook-Pro with PID 64908 (started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:57:27.567  INFO 64908 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : No active profile set, falling back to default profiles: default
+2021-02-22 13:57:28.592  WARN 64908 --- [main] pConfig$$EnhancerBySpringCGLIB$$f79aa228 : Plants list initialized.
+2021-02-22 13:57:28.594  WARN 64908 --- [main] pConfig$$EnhancerBySpringCGLIB$$f79aa228 : Server port is set to: 8081
+2021-02-22 13:57:28.595  WARN 64908 --- [main] pConfig$$EnhancerBySpringCGLIB$$f79aa228 : Server address is set to: 0.0.0.0
+2021-02-22 13:57:28.596  WARN 64908 --- [main] pConfig$$EnhancerBySpringCGLIB$$f79aa228 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:57:28.596  WARN 64908 --- [main] pConfig$$EnhancerBySpringCGLIB$$f79aa228 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:57:29.289  INFO 64908 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:57:29.436  INFO 64908 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:57:29.625  INFO 64908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:57:29.681  INFO 64908 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:57:29.814  INFO 64908 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:57:29.893  INFO 64908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:57:29.922  INFO 64908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:57:29.965  INFO 64908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:57:30.108  INFO 64908 --- [main] c.e.p.p.PlantfinderApiApplicationTests   : Started PlantfinderApiApplicationTests in 2.811 seconds (JVM running for 3.705)
+2021-02-22 13:57:30.222  WARN 64908 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:57:30.520  INFO 64908 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:57:30.520  INFO 64908 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:57:35.796  INFO 64920 --- [main] c.e.p.p.PlantfinderApiApplication        : Starting PlantfinderApiApplication v0.0.1-SNAPSHOT on MacBook-Pro with PID 64920 (/Users/mmartofe/projects/spring_boot_admin/plantfinder-api/target/plantfinder-api-0.0.1-SNAPSHOT.jar started by mmartofe in /Users/mmartofe/projects/spring_boot_admin/plantfinder-api)
+2021-02-22 13:57:35.799  INFO 64920 --- [main] c.e.p.p.PlantfinderApiApplication        : No active profile set, falling back to default profiles: default
+2021-02-22 13:57:37.136  INFO 64920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-22 13:57:37.152  INFO 64920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-22 13:57:37.153  INFO 64920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:57:37.266  INFO 64920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-22 13:57:37.266  INFO 64920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1392 ms
+2021-02-22 13:57:37.572  WARN 64920 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Plants list initialized.
+2021-02-22 13:57:37.573  WARN 64920 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server port is set to: 8081
+2021-02-22 13:57:37.574  WARN 64920 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : Server address is set to: 0.0.0.0
+2021-02-22 13:57:37.574  WARN 64920 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.instance.service-base-url is set to: http://127.0.0.1:8081
+2021-02-22 13:57:37.574  WARN 64920 --- [main] pConfig$$EnhancerBySpringCGLIB$$13ff2d04 : spring.boot.admin.client.url is set to: http://localhost:8092/
+2021-02-22 13:57:37.974  INFO 64920 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:57:38.052  INFO 64920 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-22 13:57:38.150  INFO 64920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:57:38.207  INFO 64920 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-22 13:57:38.299  INFO 64920 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-02-22 13:57:38.387  INFO 64920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-22 13:57:38.389  INFO 64920 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-22 13:57:38.418  INFO 64920 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-22 13:57:38.467  INFO 64920 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-22 13:57:38.616  INFO 64920 --- [main] c.e.p.p.PlantfinderApiApplication        : Started PlantfinderApiApplication in 3.339 seconds (JVM running for 3.753)
+2021-02-22 13:57:38.668  WARN 64920 --- [main] c.e.p.p.PlantfinderApiApplication        : Applicartion started.
+2021-02-22 13:57:38.738  WARN 64920 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=Plantfinder API Service, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8092//instances]): I/O error on POST request for "http://localhost:8092/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2021-02-22 13:57:46.748  INFO 64920 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:57:46.748  INFO 64920 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:57:46.754  INFO 64920 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-02-22 13:57:50.560  INFO 64920 --- [http-nio-0.0.0.0-8081-exec-2] c.e.p.p.c.PlantFinderMainController      : getting all plants
+2021-02-22 13:58:35.126  INFO 64920 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-02-22 13:58:35.126  INFO 64920 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
